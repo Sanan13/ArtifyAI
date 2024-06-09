@@ -12,9 +12,9 @@ const Sidebar = () => {
     const pathname = usePathname();
     return (
         <aside className='sidebar'>
-            <div className='flex size-full flex-col gap-4'>
+            <div className='flex size-full flex-col gap-2'>
                 <Link href="/" className='sidebar-logo'>
-                    <Image src="/assets/images/my-logo.png" alt='logo' width={180} height={28} />
+                    <Image src="/assets/images/my-logo.png" alt='logo' width={170} height={24} />
                 </Link>
                 <nav className='sidebar-nav'>
                     <SignedIn>
